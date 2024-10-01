@@ -1,4 +1,4 @@
-FROM python:3.11-slim-bookworm as base
+FROM dockerhub.timeweb.cloud/python:3.11-slim-bookworm as base
 
 # Use args
 ARG USE_CUDA
